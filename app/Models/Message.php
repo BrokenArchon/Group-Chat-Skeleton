@@ -18,6 +18,8 @@ use Illuminate\Database\Eloquent\Model;
 class Message extends Model
 {
     /**
+     * Message owner (group).
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function group()
@@ -26,6 +28,8 @@ class Message extends Model
     }
 
     /**
+     * Message owner.
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function user()

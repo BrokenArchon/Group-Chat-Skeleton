@@ -10,8 +10,6 @@ var backendHostname = '127.0.0.1:8000'; // laravel server
 // server variable
 var connections = {};
 
-const MULTIPLE_SOCKET_CONNECTIONS_COUNT = 2;
-
 var app = express();
 var server = require(protocol).createServer(app);
 

@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Model;
 class Group extends Model
 {
     /**
-     * Group owner
+     * Group owner.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
